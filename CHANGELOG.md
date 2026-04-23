@@ -1,3 +1,32 @@
+# [8.0.0](https://github.com/adfinis/ember-validated-form/compare/v7.0.1...v8.0.0) (2026-04-23)
+
+
+### Bug Fixes
+
+* **config:** remove usage of importSync for global component overrides ([895790c](https://github.com/adfinis/ember-validated-form/commit/895790c27141a9c14569a4f263827d532edf9452)), closes [#1215](https://github.com/adfinis/ember-validated-form/issues/1215) [#1190](https://github.com/adfinis/ember-validated-form/issues/1190) [#915](https://github.com/adfinis/ember-validated-form/issues/915)
+* **deps:** convert template relevant addons to peer dependencies ([09e7f5b](https://github.com/adfinis/ember-validated-form/commit/09e7f5bb8a9e42ffda3c56b33aeff85d023c8f4e))
+* **deps:** update dependencies ([18c6f02](https://github.com/adfinis/ember-validated-form/commit/18c6f023d569498e2977fa32fc44f8da6d588b4a))
+* **validated-input/types/select:** typo in inputId ([b6e347b](https://github.com/adfinis/ember-validated-form/commit/b6e347bd51883b5705f614c160f8c062cc2263df))
+
+
+### chore
+
+* **ember:** drop support for Ember < 5.12 LTS ([c6a1bed](https://github.com/adfinis/ember-validated-form/commit/c6a1bed4b3c9a23a880b22fe498f61773f6d0278)), closes [#1211](https://github.com/adfinis/ember-validated-form/issues/1211)
+
+
+### Features
+
+* **form:** pass event to submit action ([076bddf](https://github.com/adfinis/ember-validated-form/commit/076bddfc6079b800b69950771f327fcf719531d7)), closes [#661](https://github.com/adfinis/ember-validated-form/issues/661)
+
+
+### BREAKING CHANGES
+
+* **config:** This changes the the way that global overrides for
+`ember-validated-form` components are configured. For instructions on
+how to migrate, check the [migration to v8 guide](https://docs.adfinis.com/ember-validated-form/docs/migration-v8).
+* **ember:** This addon now only supports Ember.js versions from
+5.12 upwards.
+
 ## [7.0.1](https://github.com/adfinis/ember-validated-form/compare/v7.0.0...v7.0.1) (2024-03-18)
 
 
