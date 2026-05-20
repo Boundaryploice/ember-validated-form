@@ -1,3 +1,10 @@
+## [8.0.1](https://github.com/adfinis/ember-validated-form/compare/v8.0.0...v8.0.1) (2026-05-20)
+
+
+### Bug Fixes
+
+* yield submit action to allow custom handling of things ([#1280](https://github.com/adfinis/ember-validated-form/issues/1280)) ([651f64a](https://github.com/adfinis/ember-validated-form/commit/651f64a9d9686e81735d6bb10dd4675889a79fdc))
+
 # [8.0.0](https://github.com/adfinis/ember-validated-form/compare/v7.0.1...v8.0.0) (2026-04-23)
 
 
