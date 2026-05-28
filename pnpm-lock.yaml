@@ -187,8 +187,8 @@ importers:
         specifier: 4.6.13
         version: 4.6.13
       globals:
-        specifier: 17.1.0
-        version: 17.1.0
+        specifier: 17.6.0
+        version: 17.6.0
       husky:
         specifier: 9.1.7
         version: 9.1.7
@@ -361,6 +361,10 @@ packages:
     resolution: {integrity: sha512-S9gzZ/bz83GRysI7gAD4wPT/AI3uCnY+9xn+Mx/KPs2JwHJIz1W8PZkg2cqyt3RNOBM8ejcXhV6y8Og7ly/Dug==}
     engines: {node: '>=6.9.0'}
 
+  '@babel/helper-plugin-utils@7.29.7':
+    resolution: {integrity: sha512-G7sHYigPY17oO5SYWnfD/0MTBwVR781S/JI643e/JhUYgVgWE/61SoW3NH9KWUKyKq5LVh3npif99Wkt6j86Jw==}
+    engines: {node: '>=6.9.0'}
+
   '@babel/helper-remap-async-to-generator@7.27.1':
     resolution: {integrity: sha512-7fiA521aVw8lSPeI4ZOD3vRFkoqkJcS+z4hFo82bFSH/2tNd6eJ5qCVMS5OzDmZh/kaHQeBaeyxK6wljcPtveA==}
     engines: {node: '>=6.9.0'}
@@ -467,6 +471,12 @@ packages:
 
   '@babel/plugin-syntax-decorators@7.28.6':
     resolution: {integrity: sha512-71EYI0ONURHJBL4rSFXnITXqXrrY8q4P0q006DPfN+Rk+ASM+++IBXem/ruokgBZR8YNEWZ8R6B+rCb8VcUTqA==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+
+  '@babel/plugin-syntax-decorators@7.29.7':
+    resolution: {integrity: sha512-9MTTLbF39X6sqM92JPEsoI7++26hjZvzkxKZy64aMhWLH2mPkJ/Q3AV4QLmls3R14FpSpkOwQQfUh962JGQxxg==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -1925,6 +1935,7 @@ packages:
 
   '@ungap/structured-clone@0.3.4':
     resolution: {integrity: sha512-TSVh8CpnwNAsPC5wXcIyh92Bv1gq6E9cNDeeLu7Z4h8V4/qWtXJp7y42qljRkqcpmsve1iozwv1wr+3BNdILCg==}
+    deprecated: Potential CWE-502 - Update to 1.3.1 or higher
 
   '@warp-drive/build-config@5.8.1':
     resolution: {integrity: sha512-uT0zdNf7vdHEYYdYJ/1+coE0MwRiV6dg/dTwAaYtlsTFd57NrxE+s+1qd5aAjuwdB/GVlBP/D/IlUwWggbxXbg==}
@@ -2008,6 +2019,7 @@ packages:
   '@xmldom/xmldom@0.8.11':
     resolution: {integrity: sha512-cQzWCtO6C8TQiYl1ruKNn2U6Ao4o4WBBcbL61yJl84x+j5sOWWFU9X7DpND8XZG3daDppSsigMdfAIl2upQBRw==}
     engines: {node: '>=10.0.0'}
+    deprecated: this version has critical issues, please update to the latest version
 
   '@xtuc/ieee754@1.2.0':
     resolution: {integrity: sha512-DX8nKgqcGwsc0eJSqYt5lwP4DH5FlHnmuWWBRy7X0NcaGR0ZtuyeESgMwTYVEtxmsNGY+qit4QYT/MIYTOTPeA==}
@@ -3589,6 +3601,9 @@ packages:
   decorator-transforms@2.3.1:
     resolution: {integrity: sha512-PDOk74Zqqy0946Lx4ckXxbgG6uhPScOICtrxL/pXmfznxchqNee0TaJISClGJQe6FeT8ohGqsOgdjfahm4FwEw==}
 
+  decorator-transforms@2.3.2:
+    resolution: {integrity: sha512-XcErcjlmCzG5ODgYjt6ZTXwd6S8fPKln/sJmw15ZXkWG2JpoQNwszis+AwF6XSGlOoG7g8MCEO97g+Yw3fk5OQ==}
+
   deep-extend@0.6.0:
     resolution: {integrity: sha512-LOHxIOaPYdHlJRtCQfDIVZtfw/ufM8+rVj649RIHzcm/vGwQRXFt6OPqIFWsm2XEMrNIEtWR64sY1LEKD2vAOA==}
     engines: {node: '>=4.0.0'}
@@ -4063,6 +4078,9 @@ packages:
 
   ember-modifier@4.2.2:
     resolution: {integrity: sha512-pPYBAGyczX0hedGWQFQOEiL9s45KS9efKxJxUQkMLjQyh+1Uef1mcmAGsdw2KmvNupITkE/nXxmVO1kZ9tt3ag==}
+
+  ember-modifier@4.3.0:
+    resolution: {integrity: sha512-O0rirSLQbGg0VJ/NqoQ4uN1bh2iAekZC/Ykma+FkjCM2ofrO38u+d8n3+AK6uVWeMJmogGX2KL+Is5fofoInJg==}
 
   ember-qunit@9.0.4:
     resolution: {integrity: sha512-rv6gKvrdXdPBTdSZC5co82eIcDWWVR7RjafU/c+5TTz290oXhIHPoVuZbcO2F5RiAqkTW0jKzwkCP8y+2tCjFw==}
@@ -4887,6 +4905,7 @@ packages:
   git-raw-commits@4.0.0:
     resolution: {integrity: sha512-ICsMM1Wk8xSGMowkOmPrzo2Fgmfo4bMHLNX6ytHjajRJUqvHOw/TFapQ+QG75c3X/tTDDhOSRPGC52dDbNM8FQ==}
     engines: {node: '>=16'}
+    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
     hasBin: true
 
   git-raw-commits@5.0.1:
@@ -4911,6 +4930,7 @@ packages:
 
   glob@10.5.0:
     resolution: {integrity: sha512-DfXN8DfhJ7NH3Oe7cFmu3NCu1wKbkReJ8TorzSAFbSKrlNaQSKfIzqYqVY8zlbs2NLBbWpRiU52GX2PbaBVNkg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@13.0.0:
@@ -4919,15 +4939,16 @@ packages:
 
   glob@5.0.15:
     resolution: {integrity: sha512-c9IPMazfRITpmAAKi22dK1VKxGDX9ehhqfABDriL/lzO92xcUKEJPQHrVA/2YHSNFB4iFlykVmWvwo48nr3OxA==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   glob@9.3.5:
     resolution: {integrity: sha512-e1LleDykUz2Iu+MTYdkSsuWX8lvAjAcs0Xef0lNIu0S2wOAzuTxCJtcd9S3cijlwYF18EsU3rzb8jPVobxDh9Q==}
     engines: {node: '>=16 || 14 >=14.17'}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   global-directory@4.0.1:
     resolution: {integrity: sha512-wHTUcDUoZ1H5/0iVqEudYW4/kAlN5cZ3j/bXn0Dpbizl9iaUVeWSHqiOjsgk6OW2bkLclbBjzewBz6weQ1zA2Q==}
@@ -4957,8 +4978,8 @@ packages:
     resolution: {integrity: sha512-7ACyT3wmyp3I61S4fG682L0VA2RGD9otkqGJIwNUMF1SWUombIIk+af1unuDYgMm082aHYwD+mzJvv9Iu8dsgg==}
     engines: {node: '>=18'}
 
-  globals@17.1.0:
-    resolution: {integrity: sha512-8HoIcWI5fCvG5NADj4bDav+er9B9JMj2vyL2pI8D0eismKyUvPLTSs+Ln3wqhwcp306i73iyVnEKx3F6T47TGw==}
+  globals@17.6.0:
+    resolution: {integrity: sha512-sepffkT8stwnIYbsMBpoCHJuJM5l98FUF2AnE07hfvE0m/qp3R586hw4jF4uadbhvg1ooIdzuu7CsfD2jzCaNA==}
     engines: {node: '>=18'}
 
   globals@9.18.0:
@@ -8256,6 +8277,7 @@ packages:
 
   uuid@8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   validate-npm-package-license@3.0.4:
@@ -8733,6 +8755,8 @@ snapshots:
 
   '@babel/helper-plugin-utils@7.28.6': {}
 
+  '@babel/helper-plugin-utils@7.29.7': {}
+
   '@babel/helper-remap-async-to-generator@7.27.1(@babel/core@7.28.6)':
     dependencies:
       '@babel/core': 7.28.6
@@ -8859,6 +8883,11 @@ snapshots:
     dependencies:
       '@babel/core': 7.28.6
       '@babel/helper-plugin-utils': 7.28.6
+
+  '@babel/plugin-syntax-decorators@7.29.7(@babel/core@7.28.6)':
+    dependencies:
+      '@babel/core': 7.28.6
+      '@babel/helper-plugin-utils': 7.29.7
 
   '@babel/plugin-syntax-import-assertions@7.28.6(@babel/core@7.28.6)':
     dependencies:
@@ -13041,6 +13070,13 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
 
+  decorator-transforms@2.3.2(@babel/core@7.28.6):
+    dependencies:
+      '@babel/plugin-syntax-decorators': 7.29.7(@babel/core@7.28.6)
+      babel-import-util: 3.0.1
+    transitivePeerDependencies:
+      - '@babel/core'
+
   deep-extend@0.6.0: {}
 
   deep-is@0.1.4: {}
@@ -14061,6 +14097,14 @@ snapshots:
       decorator-transforms: 2.3.1(@babel/core@7.28.6)
       ember-cli-normalize-entity-name: 1.0.0
       ember-cli-string-utils: 1.1.0
+    transitivePeerDependencies:
+      - '@babel/core'
+      - supports-color
+
+  ember-modifier@4.3.0(@babel/core@7.28.6):
+    dependencies:
+      '@embroider/addon-shim': 1.10.2
+      decorator-transforms: 2.3.2(@babel/core@7.28.6)
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
@@ -15383,7 +15427,7 @@ snapshots:
 
   globals@15.15.0: {}
 
-  globals@17.1.0: {}
+  globals@17.6.0: {}
 
   globals@9.18.0: {}
 
@@ -16153,7 +16197,7 @@ snapshots:
     dependencies:
       '@embroider/addon-shim': 1.10.2
       '@embroider/macros': 1.19.6
-      ember-modifier: 4.2.2(@babel/core@7.28.6)
+      ember-modifier: 4.3.0(@babel/core@7.28.6)
       velocity-animate: 1.5.2
     transitivePeerDependencies:
       - '@babel/core'
